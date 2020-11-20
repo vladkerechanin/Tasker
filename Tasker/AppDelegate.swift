@@ -7,6 +7,13 @@
 
 import UIKit
 
+extension UINavigationController {
+    
+    open override var preferredStatusBarStyle: UIStatusBarStyle {
+        return.default
+    }
+}
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
